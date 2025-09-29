@@ -42,7 +42,20 @@ Las ramas que se van a manejar son las siguientes:
 - main: rama principal donde se encuentra el código estable.
 - develop: rama de desarrollo donde se integran las nuevas funcionalidades.
 - feature/nombre-funcionalidad: ramas para desarrollar nuevas funcionalidades específicas.
-- test: rama para pruebas y validaciones antes de integrar a develop o main.
+
+Creamos los siguientes ramas:
+
+- feature/builder: para implementar el patrón Builder.
+
+- feture/decorate: para implementar los decoradores.
+
+- feature/repository: para implementar la persistencia con MongoDB.
+
+- feature/service: para implementar la lógica del servicio.
+
+- feature/web: para implementar el controlador web.
+
+- feature/Test: rama para pruebas y validaciones antes de integrar a develop o main.
 
 y los commits se van a manejar de la siguiente manera:
 - feat: para nuevas funcionalidades.
